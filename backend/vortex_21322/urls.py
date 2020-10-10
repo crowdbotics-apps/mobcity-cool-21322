@@ -38,9 +38,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
 ]
 
-admin.site.site_header = "vortex"
-admin.site.site_title = "vortex Admin Portal"
-admin.site.index_title = "vortex Admin"
+admin.site.site_header = "Mobcity cool"
+admin.site.site_title = "Mobcity cool Admin Portal"
+admin.site.index_title = "Mobcity cool Admin"
 
 # swagger
 api_info = openapi.Info(
